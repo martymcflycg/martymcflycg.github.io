@@ -1,6 +1,6 @@
 /* stylesheet für Aufgabe 3 */
 body {
-    background-color: #9B9F9B;
+    background-color:#A1C9F0;    
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -9,16 +9,16 @@ p{
 }
 section{
     color: #000000;
-    background-color:#7B7F7B;
+    background-color:#A6B9CA;
     width: 100%;
 }
 article{
-    color:#0075E6;
+    color:#003B03;
     width: 85%;
 }
 img{
 height: 300px;
 width: 30%;
 border-style: solid;
-border-width: 10px;
+border-width: 5px;
 }
