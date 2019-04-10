@@ -9,12 +9,13 @@ p{
 }
 section{
     color: #000000;
-    background-color:#A6B9CA;
+    background-color:#CFE3D4;
     width: 100%;
 }
 article{
-    color:#CF0C0C;
+    color:#003CFF;
     width: 85%;
+    font-size:2em;
 }
 img{
 height: 300px;
