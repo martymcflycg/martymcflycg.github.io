@@ -1,23 +1,24 @@
 /* stylesheet für Aufgabe 3 */
 body {
-    background-color: #000000;
+    background-color: #9B9F9B;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    color:#085B10;
+    font-size: 1em;
+    color:#000000;
 }
 section{
-    color:#708071;
+    color: #000000;
+    background-color:#7B7F7B;
     width: 100%;
 }
 article{
-    color: #FFFFFF;
+    color:#0075E6;
     width: 85%;
 }
 img{
-height: 250px;
-width: 50%;
+height: 300px;
+width: 30%;
 border-style: solid;
-border-width: 5px;
+border-width: 10px;
 }
