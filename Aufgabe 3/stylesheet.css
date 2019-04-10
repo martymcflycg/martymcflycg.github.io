@@ -1,0 +1,23 @@
+/* stylesheet für Aufgabe 3 */
+body {
+    background-color: #000000;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color:#085B10;
+}
+section{
+    color:#708071;
+    width: 100%;
+}
+article{
+    color: #FFFFFF;
+    width: 85%;
+}
+img{
+height: 250px;
+width: 50%;
+border-style: solid;
+border-width: 5px;
+}
