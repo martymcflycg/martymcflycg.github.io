@@ -53,13 +53,13 @@ aside{
     float:left;
     width:20%;
     background-color:#000000;
-    color:#535252;
+    color:#000000;
     overflow: auto;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    color:#ffffff;
+    color:#535252;
 }
 section{
     float:left;
@@ -75,7 +75,7 @@ article{
     }
     img {
         margin: 3%;
-        width: 94%;
+        width: 24%;
         border-radius: 5px;
         max-height: 50px;
         max-width: 50px;
