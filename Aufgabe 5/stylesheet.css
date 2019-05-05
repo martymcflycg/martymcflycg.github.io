@@ -63,7 +63,7 @@ p{
 }
 section{
     float:left;
-    background-color:#2b2b2b;
+    background-color:#000000;
     width: 24%;
     margin: 0.5%;
     height: 23em;
@@ -87,7 +87,7 @@ img:hover{
 }
 h1{
     font-size: 5em;
-    color: #ffffff;
+    color: #14cccc;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     padding: 30px;
