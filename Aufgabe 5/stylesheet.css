@@ -10,7 +10,7 @@ ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: #000000;
+    background-color: #535252;
 }
 
 li{
@@ -53,7 +53,7 @@ aside{
     float:left;
     width:20%;
     background-color:#000000;
-    color:#ffffff;
+    color:#535252;
     overflow: auto;
 }
 p{
@@ -77,8 +77,8 @@ article{
         margin: 3%;
         width: 94%;
         border-radius: 5px;
-        max-height: 345px;
-        max-width: 230px;
+        max-height: 50px;
+        max-width: 50px;
     }
 }
 img:hover{
