@@ -3,6 +3,7 @@ header {
     width: 100%;
     clear: left;
     background-color:#000000;
+    color:#ffffff;
 }
 ul{
     text-align: center;
@@ -32,7 +33,7 @@ main {
 }
 body{
     clear:left;
-    background-color: #99AABB;
+    background-color: #000000;
     margin: 0;
 }
 .AsideLeft{
@@ -51,7 +52,7 @@ body{
 aside{
     float:left;
     width:20%;
-    background-color:#887777;
+    background-color:#000000;
     color:#ffffff;
     overflow: auto;
 }
@@ -73,8 +74,8 @@ article{
     color:#FFFFFF;
     }
 img{
-height: 300px;
-width: 90%;
+height: 30px;
+width: 80%;
 border-style: solid;
 border-width: 0px;
 border-radius: 5%;
@@ -84,4 +85,17 @@ max-width: 230px;
 img:hover{
     opacity: 0.5;
     cursor: pointer;
+}
+footer{
+    width: 100%;
+    clear: left;
+    background-color: #000000;
+    color:#ffffff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+footer p{
+    margin: auto;
 }
