@@ -84,7 +84,6 @@ section{
         max-height: 345px;
         max-width: 230px;
     }
-}
 img:hover{
     opacity: 0.5;
     cursor: pointer;
