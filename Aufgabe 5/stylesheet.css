@@ -1,9 +1,10 @@
 /* stylesheet für Aufgabe 5 */
 header {
     width: 100%;
-    clear: center;
+    text-align: center;
     background-color:#000000;
     color:#ffffff;
+    font-size: 5em;
 }
 ul{
     text-align: center;
