@@ -1,0 +1,78 @@
+/* stylesheet für Aufgabe 5 */
+header {
+    width: 100%;
+    clear: left;
+    background-color:#000000;
+}
+ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #99AABB;
+}
+
+li{
+    color:rgb(27, 23, 29);
+    display: inline;
+    padding: 1%;
+    font-size: 2em;
+}
+    li:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+main {
+    float: left;
+    width: 60%;
+    background-color:#000000;
+    margin-left: 20%;
+    margin-bottom: 5em;
+}
+body{
+    clear:left;
+    background-color: #99AABB;
+    margin: 0;
+}
+.AsideLeft{
+    clear: left;
+    height: 70em;
+    position:absolute;
+    transition: width 0.3s;
+}
+.AsideLeft:hover{
+    width: 35%;
+}
+.AsideRight{
+    margin-bottom: 0.5%;
+    height:23em;
+}
+aside{
+    float:left;
+    width:20%;
+    background-color:#887777;
+    color:#ffffff;
+    overflow: auto;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color:#ffffff;
+}
+section{
+    float:left;
+    color: #887777;
+    background-color:#CFE3D4;
+    width: 20%;
+
+article{
+    color:#FFFFFF;
+    }
+img{
+height: 300px;
+width: 30%;
+border-style: solid;
+border-width: 0px;
+border-radius: 5%;
+}
