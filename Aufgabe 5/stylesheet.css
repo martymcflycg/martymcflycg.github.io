@@ -10,7 +10,7 @@ ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: #535252;
+    background-color: #a8a8a8;
 }
 
 li{
@@ -59,7 +59,7 @@ aside{
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    color:#535252;
+    color:#a8a8a8;
 }
 section{
     float:left;
@@ -69,16 +69,16 @@ section{
     height: 23em;
     overflow:auto;
     border-radius: 5px;
-
-article{
-    color:#FFFFFF;
+}
+ article p{
+        font-size: 13px;
     }
-    img {
-        margin: 3%;
-        width: 24%;
-        border-radius: 5px;
-        max-height: 50px;
-        max-width: 50px;
+    img{
+        margin:3%;
+        width: 94%;
+        border-radius: 5px; 
+        max-height: 345px;
+        max-width: 230px;
     }
 }
 img:hover{
