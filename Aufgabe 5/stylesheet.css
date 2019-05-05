@@ -9,11 +9,11 @@ ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: #99AABB;
+    background-color: #000000;
 }
 
 li{
-    color:rgb(27, 23, 29);
+    color:#ffffff;
     display: inline;
     padding: 1%;
     font-size: 2em;
@@ -62,17 +62,26 @@ p{
 }
 section{
     float:left;
-    color: #887777;
     background-color:#CFE3D4;
     width: 20%;
+    margin: 0.5%;
+    height: 23em;
+    overflow:auto;
+    border-radius: 5px;
 
 article{
     color:#FFFFFF;
     }
 img{
 height: 300px;
-width: 30%;
+width: 90%;
 border-style: solid;
 border-width: 0px;
 border-radius: 5%;
+max-height: 345px;
+max-width: 230px;
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
