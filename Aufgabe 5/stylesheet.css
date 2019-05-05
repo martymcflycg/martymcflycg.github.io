@@ -1,4 +1,8 @@
 /* stylesheet für Aufgabe 5 */
+@font-face {
+    font-family: LemonMilklight;
+    src        : url(LemonMilklight.otf) format('opentype')
+}
 header {
     width: 100%;
     text-align: center;
