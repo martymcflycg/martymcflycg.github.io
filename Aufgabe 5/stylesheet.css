@@ -47,13 +47,13 @@ body{
 }
 .AsideRight{
     margin-bottom: 0.5%;
-    height:23em;
+    height:46em;
 }
 aside{
     float:left;
     width:20%;
     background-color:#000000;
-    color:#000000;
+    color:#ffffff;
     overflow: auto;
 }
 p{
@@ -93,6 +93,22 @@ h1{
     padding: 30px;
     margin:0;
 } 
+h2{
+    font-size: 2em;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+    font-size: 1em;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: auto;
+    margin-bottom: 2em;
+}
+
 footer{
     width: 100%;
     clear: left;
