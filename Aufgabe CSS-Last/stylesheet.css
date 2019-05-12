@@ -48,7 +48,6 @@ ul {
     position: relative;
     overflow: hidden;
     height: 2.5em;
-    border-radius: 5px;
     width: 100%;
 }
 
@@ -84,7 +83,7 @@ main {
     background-color: #000000;
     color: #a8a8a8;
     margin-bottom: 1em;
-    border-radius: 5px;
+    border-radius: 0;
 }
 
 aside {
@@ -96,7 +95,7 @@ aside {
     background-color: #000000;
     color: #a8a8a8;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 0;
     height: 23em;
 }
 
@@ -107,7 +106,7 @@ section {
     margin: 0.5%;
     height: 23em;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 0;
     text-align: center;
 }
 
