@@ -1,0 +1,214 @@
+/* stylesheet für Aufgabe 6 */
+
+@font-face {
+    font-family: LemonMilklight;
+    src: url(LemonMilklight.otf) format('opentype')
+}
+
+
+/* Smartphone-Ansicht*/
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #272727;
+    color: #ffffff;
+    margin-bottom: 2em;
+}
+
+body {
+    clear: left;
+    background-color: #777676;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    clear: left;
+    background-color: #272727;
+    color: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+footer p {
+    margin: auto;
+}
+
+
+/* Nav*/
+
+ul {
+    text-align: center;
+    margin-top: 0%;
+    padding: 0%;
+    background-color: #272727;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    height: 2.5em;
+    border-radius: 5px;
+    width: 100%;
+}
+
+ul:hover {
+    height: 29em;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+li {
+    padding: 1%;
+    font-size: 2em;
+    height: 1.1em;
+    border-radius: 5px;
+}
+
+li:hover {
+    height: 1.1em;
+    background-color: rgba(44, 43, 43, 0.897);
+    cursor: pointer;
+}
+
+a {
+    color: #ffffff;
+}
+
+main {
+    float: left;
+    width: 79%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.5%;
+    background-color: #000000;
+    color: #a8a8a8;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+aside {
+    float: right;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1em;
+    background-color: #000000;
+    color: #a8a8a8;
+    overflow: auto;
+    border-radius: 5px;
+    height: 23em;
+}
+
+section {
+    float: left;
+    background-color: #000000;
+    width: 99%;
+    margin: 0.5%;
+    height: 23em;
+    overflow: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    margin: 3%;
+    width: 94%;
+    border-radius: 5px;
+    max-height: 345px;
+    max-width: 230px;
+}
+
+img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 5em;
+    color: #14cccc;
+    font-family: LemonMilklight;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+    color: #ffffff;
+    font-family: LemonMilklight;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+    color: #ffffff;
+    font-family: LemonMilklight;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: auto;
+    margin-bottom: 2em;
+}
+
+p {
+    font-size: 1em;
+    color: #a8a8a8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+article p {
+    font-size: 13px;
+}
+
+
+/*Tablet-Ansicht*/
+
+@media screen and (min-width: 768px) {
+    ul {
+        width: 24%;
+        margin-left: 1%;
+        margin-top: 2em;
+        position: fixed;
+    }
+    main {
+        width: 72%;
+        padding: 0.5%;
+        margin-left: 26%;
+        margin-right: 1%;
+    }
+    aside {
+        width: 73%;
+        margin-left: 26%;
+        margin-right: 1%;
+    }
+    section {
+        width: 49%;
+    }
+}
+
+
+/*Desktop-Ansicht*/
+
+@media screen and (min-width: 992px) {
+    ul {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 19%;
+    }
+    main {
+        width: 57%;
+        margin-left: 21%;
+        margin-right: 1%;
+        padding: 0.5%;
+    }
+    aside {
+        width: 19%;
+        margin-left: 0%;
+        margin-right: 1%;
+    }
+    section {
+        width: 24%;
+        margin: 0.5%;
+    }
+}
