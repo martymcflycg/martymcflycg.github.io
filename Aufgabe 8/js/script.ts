@@ -44,7 +44,7 @@ let monsterName : string[] = ["Ratte", "Nagetier", "Ungeziefer", "Nessie" , "Rit
 let suffix : string[] = [" des Verderbens", " aus der Hölle", " der Lethalität", " mit Rheuma", " der Redundanz", " der Zerberstung", "des Todes","der Verwirrung","aus der Pfalz","der Vernunft","aus dem Osten"]; // length = 6, da hier 6 Einträge sind. Von 0-5.
 let Item : string[] = ["Stock","Flammenschwert","Blumenvase","Feuerzeug","Murmel","Säbel","Revolver","Mittelfinger"];
 let monsterModifers : string[] = ["Ist nervig", "Linkshänder", "Bier-Connoisseur", "Verfehlt häufig", "Prokrastiniert", "Müde", "Verwirrt", "Wasserscheu", "Bipolar", "Hat Schnupfen", "Verläuft sich oft"]; // Eine Reihe von zufälligen "Verstärkern" für das Monster.
-let monsterIcon: string[] = ["Ratte.png","Nagetier.png","Ungeziefer.jpg","Nessie.jpg","Ritter.jpg" ]
+let monsterIcon: string[] = ["imgs/Ratte.png","imgs/Nagetier.png","imgs/Ungeziefer.jpg","imgs/Nessie.jpg","imgs/Ritter.jpg","imgs/Spinne.png","imgs/Wolf.jpg","imgs/Waschbät.jpg" ]
 let PushArray: number[]=[];
 // -- Initialisierung für viele/variable Anzahl an Monster --
 let monsterArray : Monster[] = []; // Das Haupt-Array wurde erstellt und initialisiert!
