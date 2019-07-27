@@ -17,7 +17,7 @@ interface KarteComputer {                    //Interface Karten Computer
 let Karte1: Karte = {                   //Rote Karten
 
     Wert: "1",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 1,
     Rückseite: "normal",
 
@@ -26,7 +26,7 @@ let Karte1: Karte = {                   //Rote Karten
 let Karte2: Karte = {
 
     Wert: "2",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 2,
     Rückseite: "normal",
 
@@ -35,7 +35,7 @@ let Karte2: Karte = {
 let Karte3: Karte = {
 
     Wert: "3",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 3,
     Rückseite: "normal",
 }
@@ -43,7 +43,7 @@ let Karte3: Karte = {
 let Karte4: Karte = {
 
     Wert: "4",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 4,
     Rückseite: "normal",
 }
@@ -51,7 +51,7 @@ let Karte4: Karte = {
 let Karte5: Karte = {
 
     Wert: "5",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 5,
     Rückseite: "normal",
 }
@@ -59,7 +59,7 @@ let Karte5: Karte = {
 let Karte6: Karte = {
 
     Wert: "6",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 6,
     Rückseite: "normal",
 }
@@ -67,7 +67,7 @@ let Karte6: Karte = {
 let Karte7: Karte = {
 
     Wert: "7",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 7,
     Rückseite: "normal",
 }
@@ -75,7 +75,7 @@ let Karte7: Karte = {
 let Karte8: Karte = {
 
     Wert: "8",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 8,
     Rückseite: "normal",
 }
@@ -84,7 +84,7 @@ let Karte8: Karte = {
 let Karte9: Karte = {
 
     Wert: "9",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 9,
     Rückseite: "normal",
 }
@@ -93,7 +93,7 @@ let Karte9: Karte = {
 let Karte10: Karte = {
 
     Wert: "10",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 10,
     Rückseite: "normal",
 }
@@ -269,7 +269,7 @@ let Karte30: Karte = {
 let Karte31: Karte = {
 
     Wert: "1",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 31,
     Rückseite: "normal",
 }
@@ -277,7 +277,7 @@ let Karte31: Karte = {
 let Karte32: Karte = {
 
     Wert: "2",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 32,
     Rückseite: "normal",
 }
@@ -285,7 +285,7 @@ let Karte32: Karte = {
 let Karte33: Karte = {
 
     Wert: "3",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 33,
     Rückseite: "normal",
 }
@@ -293,7 +293,7 @@ let Karte33: Karte = {
 let Karte34: Karte = {
 
     Wert: "4",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 34,
     Rückseite: "normal",
 }
@@ -301,7 +301,7 @@ let Karte34: Karte = {
 let Karte35: Karte = {
 
     Wert: "5",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 35,
     Rückseite: "normal",
 }
@@ -309,7 +309,7 @@ let Karte35: Karte = {
 let Karte36: Karte = {
 
     Wert: "6",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 36,
     Rückseite: "normal",
 }
@@ -317,7 +317,7 @@ let Karte36: Karte = {
 let Karte37: Karte = {
 
     Wert: "7",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 37,
     Rückseite: "normal",
 }
@@ -325,7 +325,7 @@ let Karte37: Karte = {
 let Karte38: Karte = {
 
     Wert: "8",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 38,
     Rückseite: "normal",
 }
@@ -334,7 +334,7 @@ let Karte38: Karte = {
 let Karte39: Karte = {
 
     Wert: "9",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 39,
     Rückseite: "normal",
 }
@@ -343,7 +343,7 @@ let Karte39: Karte = {
 let Karte40: Karte = {              //Grüne Karten
 
     Wert: "10",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 40,
     Rückseite: "normal",
 }
@@ -354,7 +354,7 @@ let Karte40: Karte = {              //Grüne Karten
 let Karte41: KarteComputer = {          //Rote Karten
 
     Wert: "1",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 1,
     Rückseite: "anders",
 
@@ -363,7 +363,7 @@ let Karte41: KarteComputer = {          //Rote Karten
 let Karte42: KarteComputer = {
 
     Wert: "2",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 2,
     Rückseite: "anders",
 
@@ -372,7 +372,7 @@ let Karte42: KarteComputer = {
 let Karte43: KarteComputer = {
 
     Wert: "3",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 3,
     Rückseite: "anders",
 
@@ -381,7 +381,7 @@ let Karte43: KarteComputer = {
 let Karte44: KarteComputer = {
 
     Wert: "4",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 4,
     Rückseite: "anders",
 
@@ -390,7 +390,7 @@ let Karte44: KarteComputer = {
 let Karte45: KarteComputer = {
 
     Wert: "5",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 5,
     Rückseite: "anders",
 }
@@ -398,7 +398,7 @@ let Karte45: KarteComputer = {
 let Karte46: KarteComputer = {
 
     Wert: "6",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 6,
     Rückseite: "anders",
 }
@@ -406,7 +406,7 @@ let Karte46: KarteComputer = {
 let Karte47: KarteComputer = {
 
     Wert: "7",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 7,
     Rückseite: "anders",
 }
@@ -414,7 +414,7 @@ let Karte47: KarteComputer = {
 let Karte48: KarteComputer = {
 
     Wert: "8",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 8,
     Rückseite: "anders",
 }
@@ -423,7 +423,7 @@ let Karte48: KarteComputer = {
 let Karte49: KarteComputer = {
 
     Wert: "9",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 9,
     Rückseite: "anders",
 }
@@ -432,7 +432,7 @@ let Karte49: KarteComputer = {
 let Karte50: KarteComputer = {
 
     Wert: "10",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 10,
     Rückseite: "anders",
 }
@@ -607,7 +607,7 @@ let Karte70: KarteComputer = {
 let Karte71: KarteComputer = {          //Grüne Karten
 
     Wert: "1",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 31,
     Rückseite: "anders",
 }
@@ -615,7 +615,7 @@ let Karte71: KarteComputer = {          //Grüne Karten
 let Karte72: KarteComputer = {
 
     Wert: "2",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 32,
     Rückseite: "anders",
 }
@@ -623,7 +623,7 @@ let Karte72: KarteComputer = {
 let Karte73: KarteComputer = {
 
     Wert: "3",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 33,
     Rückseite: "anders",
 }
@@ -631,7 +631,7 @@ let Karte73: KarteComputer = {
 let Karte74: KarteComputer = {
 
     Wert: "4",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 34,
     Rückseite: "anders",
 }
@@ -639,7 +639,7 @@ let Karte74: KarteComputer = {
 let Karte75: KarteComputer = {
 
     Wert: "5",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 35,
     Rückseite: "anders",
 }
@@ -647,7 +647,7 @@ let Karte75: KarteComputer = {
 let Karte76: KarteComputer = {
 
     Wert: "6",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 36,
     Rückseite: "anders",
 }
@@ -655,7 +655,7 @@ let Karte76: KarteComputer = {
 let Karte77: KarteComputer = {
 
     Wert: "7",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 37,
     Rückseite: "anders",
 }
@@ -663,7 +663,7 @@ let Karte77: KarteComputer = {
 let Karte78: KarteComputer = {
 
     Wert: "8",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 38,
     Rückseite: "anders",
 }
@@ -672,7 +672,7 @@ let Karte78: KarteComputer = {
 let Karte79: KarteComputer = {
 
     Wert: "9",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 39,
     Rückseite: "anders",
 }
@@ -681,7 +681,7 @@ let Karte79: KarteComputer = {
 let Karte80: KarteComputer = {
 
     Wert: "10",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 40,
     Rückseite: "anders",
 }
@@ -767,7 +767,7 @@ window.onload = function () {
 //Karten austeilen Funktion
 function Kartenausteilen(): void {
 
-    for (y = 0; y++;) {
+    for (y = 0; y; y++) {
         x = Math.floor((Math.random() * kartenStapel.length));
         v = Math.floor((Math.random() * kartenStapel.length));
 

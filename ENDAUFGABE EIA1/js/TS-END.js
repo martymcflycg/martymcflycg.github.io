@@ -1,61 +1,61 @@
 //Spieler-Karten generieren//
 let Karte1 = {
     Wert: "1",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 1,
     Rückseite: "normal",
 };
 let Karte2 = {
     Wert: "2",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 2,
     Rückseite: "normal",
 };
 let Karte3 = {
     Wert: "3",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 3,
     Rückseite: "normal",
 };
 let Karte4 = {
     Wert: "4",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 4,
     Rückseite: "normal",
 };
 let Karte5 = {
     Wert: "5",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 5,
     Rückseite: "normal",
 };
 let Karte6 = {
     Wert: "6",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 6,
     Rückseite: "normal",
 };
 let Karte7 = {
     Wert: "7",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 7,
     Rückseite: "normal",
 };
 let Karte8 = {
     Wert: "8",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 8,
     Rückseite: "normal",
 };
 let Karte9 = {
     Wert: "9",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 9,
     Rückseite: "normal",
 };
 let Karte10 = {
     Wert: "10",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 10,
     Rückseite: "normal",
 };
@@ -181,122 +181,122 @@ let Karte30 = {
 };
 let Karte31 = {
     Wert: "1",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 31,
     Rückseite: "normal",
 };
 let Karte32 = {
     Wert: "2",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 32,
     Rückseite: "normal",
 };
 let Karte33 = {
     Wert: "3",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 33,
     Rückseite: "normal",
 };
 let Karte34 = {
     Wert: "4",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 34,
     Rückseite: "normal",
 };
 let Karte35 = {
     Wert: "5",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 35,
     Rückseite: "normal",
 };
 let Karte36 = {
     Wert: "6",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 36,
     Rückseite: "normal",
 };
 let Karte37 = {
     Wert: "7",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 37,
     Rückseite: "normal",
 };
 let Karte38 = {
     Wert: "8",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 38,
     Rückseite: "normal",
 };
 let Karte39 = {
     Wert: "9",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 39,
     Rückseite: "normal",
 };
 let Karte40 = {
     Wert: "10",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 40,
     Rückseite: "normal",
 };
 //Computer-Karten generieren//
 let Karte41 = {
     Wert: "1",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 1,
     Rückseite: "anders",
 };
 let Karte42 = {
     Wert: "2",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 2,
     Rückseite: "anders",
 };
 let Karte43 = {
     Wert: "3",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 3,
     Rückseite: "anders",
 };
 let Karte44 = {
     Wert: "4",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 4,
     Rückseite: "anders",
 };
 let Karte45 = {
     Wert: "5",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 5,
     Rückseite: "anders",
 };
 let Karte46 = {
     Wert: "6",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 6,
     Rückseite: "anders",
 };
 let Karte47 = {
     Wert: "7",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 7,
     Rückseite: "anders",
 };
 let Karte48 = {
     Wert: "8",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 8,
     Rückseite: "anders",
 };
 let Karte49 = {
     Wert: "9",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 9,
     Rückseite: "anders",
 };
 let Karte50 = {
     Wert: "10",
-    Typ: "Red",
+    Typ: "Rot",
     Reihenfolge: 10,
     Rückseite: "anders",
 };
@@ -422,61 +422,61 @@ let Karte70 = {
 };
 let Karte71 = {
     Wert: "1",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 31,
     Rückseite: "anders",
 };
 let Karte72 = {
     Wert: "2",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 32,
     Rückseite: "anders",
 };
 let Karte73 = {
     Wert: "3",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 33,
     Rückseite: "anders",
 };
 let Karte74 = {
     Wert: "4",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 34,
     Rückseite: "anders",
 };
 let Karte75 = {
     Wert: "5",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 35,
     Rückseite: "anders",
 };
 let Karte76 = {
     Wert: "6",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 36,
     Rückseite: "anders",
 };
 let Karte77 = {
     Wert: "7",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 37,
     Rückseite: "anders",
 };
 let Karte78 = {
     Wert: "8",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 38,
     Rückseite: "anders",
 };
 let Karte79 = {
     Wert: "9",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 39,
     Rückseite: "anders",
 };
 let Karte80 = {
     Wert: "10",
-    Typ: "Green",
+    Typ: "Gruen",
     Reihenfolge: 40,
     Rückseite: "anders",
 };
@@ -542,7 +542,7 @@ window.onload = function () {
 };
 //Karten austeilen Funktion
 function Kartenausteilen() {
-    for (y = 0; y++;) {
+    for (y = 0; y; y++) {
         x = Math.floor((Math.random() * kartenStapel.length));
         v = Math.floor((Math.random() * kartenStapel.length));
         kartenHand.push(kartenStapel[x]);

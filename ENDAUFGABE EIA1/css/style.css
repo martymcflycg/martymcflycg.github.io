@@ -34,7 +34,7 @@ body {
     justify-content: space-around;
 }
 
-div[class*="Green"] {
+div[class*="Gruen"] {
     font-size: 40pt;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -54,12 +54,12 @@ div[class*="Green"] {
     text-shadow: 2px 2px 8px black;
 }
 
-div[class*="Green"]:hover {
+div[class*="Gruen"]:hover {
     width: 210px;
     height: 289px;
 }
 
-div[class*="Green"]:active {
+div[class*="Gruen"]:active {
     -webkit-box-shadow: 3px 4px 5px 1px grey;
     -moz-box-shadow: 3px 4px 5px 1px grey;
     box-shadow: 3px 4px 5px 1px grey;
@@ -78,12 +78,12 @@ div[class*="Blau"]:active {
     transform: translateY(4px);
 }
 
-div[class*="Red"]:hover {
+div[class*="Rot"]:hover {
     width: 210px;
     height: 289px;
 }
 
-div[class*="Red"]:active {
+div[class*="Rot"]:active {
     -webkit-box-shadow: 3px 4px 5px 1px grey;
     -moz-box-shadow: 3px 4px 5px 1px grey;
     box-shadow: 3px 4px 5px 1px grey;
@@ -142,7 +142,7 @@ div[class*="Gelb"] {
     text-shadow: 2px 2px 8px black;
 }
 
-div[class*="Red"] {
+div[class*="Rot"] {
     font-size: 40pt;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -150,7 +150,7 @@ div[class*="Red"] {
     overflow: none;
     object-fit: scale-down;
     text-shadow: 2px 2px 8px black;
-    background: url(Rot.jpg);
+    background: url(imgs/Rot.jpg);
     box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
@@ -162,7 +162,7 @@ div[class*="Red"] {
     border: solid #222222 0.1em;
 }
 
-.stylen {
+.style {
     background-color: none;
     color: white;
     border: none;
@@ -185,7 +185,7 @@ div[class*="Red"] {
 }
 
 .overf {
-    background: url(Tisch.jpg);
+    background: url(imgs/Tisch.jpg);
     background-size: 100%;
     -webkit-box-shadow: 9px -10px 10px 0px #000000bf;
     -moz-box-shadow: 9px -10px 10px 0px #000000bf;
@@ -207,7 +207,7 @@ div[class*="Red"] {
     float: none;
     display: flex;
     flex-wrap: wrap;
-    background: url(Tisch.jpg);
+    background: url(imgs/Tisch.jpg);
     background-size: 100%;
     -webkit-box-shadow: 5px 5px 2px 0px #000000bf;
     -moz-box-shadow: 5px 5px 2px 0px #000000bf;
