@@ -1,30 +1,37 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Kartenspiel
-    </title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>ENDKartenspiel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/TS-END.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1> Samuel Becker, Matrikelnummer: 262292</h1>
+    <header>Samuel Becker, Matrikelnummer: 262292
+
     </header>
-    <script src="js/TS-END.js"></script>
-    <div id="Computer"> </div>
-    <div class="wrapper2">
-        <div id="stapel" class="stylen">
-            <img src="imgs/Karte.JPG">
+    <div class="game">
+        <div class="field">
+            <div id="Computerkarten" class="computerCards">
+            </div>
+            <div class="inField">
+                <div id="Karten" class="item">
+                </div>
+                <div class="item stackcard">
+                    <div class></div>
+                    <button onclick="start()" class="b start">Los geht's!</button>
+                </div>
+                <div id="Hauptstapel" class="item">
+                    <div onclick="clickCard('nc')" id="nc" class="item">
+                        <div class="stackcard card back"></div>
+                        <div class="stackcard card back cardRot"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="Spielerkarten" class="playerCards">
+            </div>
         </div>
-        <div id="ablagestapel" class="style">
-        </div>
-    </div>
-    <div class="overf">
-
-        <div id="kartenHand" class="wrapper"></div>
-
     </div>
 </body>
 
