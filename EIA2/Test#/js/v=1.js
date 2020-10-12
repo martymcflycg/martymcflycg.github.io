@@ -1,3 +1,3 @@
-let v: number = 1;
+let v = true;
 v = v + 1;
 console.log(v);
