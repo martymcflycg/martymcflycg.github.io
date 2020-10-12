@@ -1,6 +1,7 @@
 namespace Cows {
     let nums: number[] = [2, 6, 5];
     let results: string[] = [];
+    debugger;
     for (let i: number = 0; i < nums.length; i++) {
         let result: string = createCall("m", nums[i]);
         results.push(result);
