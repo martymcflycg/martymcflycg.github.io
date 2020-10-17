@@ -1,5 +1,5 @@
 var Boxes;
-(function(Boxes) {
+(function (Boxes) {
     var n = 5;
     var color;
     var x = 0;
@@ -28,7 +28,6 @@ var Boxes;
                 break;
         }
     }
-
     function createBox(_color, _x, _y, _size) {
         var div = document.createElement("div");
         document.body.appendChild(div);
@@ -38,3 +37,4 @@ var Boxes;
         div.style.top = _y + "px";
     }
 })(Boxes || (Boxes = {}));
+//# sourceMappingURL=Boxes.js.map
