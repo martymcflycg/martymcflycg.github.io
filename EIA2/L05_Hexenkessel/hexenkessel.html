@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>L05 Hexenkessel</title>
+    <link rel="stylesheet" href="Hexenkessel5.css" type="text/css" media="screen" />
+    <script src="generateContent.js" type="text/javascript" charset="utf-8"></script>
+    <script src="recipe.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Online-Zaubertrank-Editor - Zaubertränke</h1>
+        <p>Erstelle ein Rezept...und wehe es ist nicht richtig</p>
+    </header>
+    <form id="f1">
+        <h2>Beschreibung</h2>
+        <fieldset>
+            <legend> Informationen </legend>
+            Name des Tranks
+            <input name="Name" type="text" id="Name" placeholder="Name" required />
+            <hr /> Wirkung
+            <input type="text" name="Datalist" list="options" placeholder="Wirkung" />
+            <datalist id="options">
+                <option value="Verwandlung"> </option>
+                <option value="Schrumpfen"> </option>
+                <option value="Wachsen"> </option>
+                <option value="Heilen"> </option>
+                <option value="Vergiften"> </option>
+                <option value="Wahrheitsserum"> </option>
+                <option value="Liebestrank"> </option>
+            </datalist>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Gefäß</legend>
+            <select name="Kessel" id="kessel">
+                <option value="kleiner Kessel" price="25">kleiner Kessel</option>
+                <option value="mittlerer Kessel" price="30">mittlerer Kessel</option>
+                <option value="großer Kessel" price="50">großer Kessel</option>
+            </select>
+        </fieldset>
+        <button type="button" id="infos">Infos übernehmen</button>
+    </form>
+
+    <form id="f2">
+        <div id="form">
+            <h2>Anweisungen</h2>
+
+
+
+            <fieldset id=ingredients>
+                <legend>Zutaten</legend>
+            </fieldset>
+            <button type="button" id="zutaten">Zutaten übernehmen</button>
+
+            <div id="abbruch">
+                <fieldset>
+
+                    <legend>Temperatur</legend>
+                    <input type="radio" name="abbruch" id="abkühlen" value="abkühlen" class="temp" />
+                    <label for="slim">abkühlen</label>
+                    <input type="radio" name="abbruch" id="erhitzen" value="erhitzen" class="temp" />
+                    <label for="wide">erhitzen</label>
+                    <br> auf <input type="number" name="temperatur" id="temperatur" step="1" min="-500" max="500" value="0" /> °Celsius
+                    <br>
+                    <!--   bis der Trank
+                <input type="color" name="color1" id="color1" placeholder="red" id="color1" value="#ff0000"> ist.
+                 -->
+                </fieldset>
+                <fieldset>
+                    <legend>Rühren</legend>
+                    <input type="radio" name="rühren" id="langsam rühren" value="langsam" class="rühren" />
+                    <label for="langsam">langsam</label>
+                    <input type="radio" name="rühren" id="schnell rühren" value="schnell" class="rühren" />
+                    <label for="schnell">schnell</label>
+                    <br>
+                    <!-- bis der Trank
+                <select name="konsitenz1" id="konsistenz1" class="kons">
+                    <option value="flüssig">flüssig</option>
+                    <option value="zäh" selected>zäh</option>
+                    <option value="fest" selected>schäumend</option>,
+                    <br>
+                    </select>
+                    ist. -->
+                </fieldset>
+                <button type="button" id="abbruchbutton">Löschen</button>
+            </div>
+
+        </div>
+
+    </form>
+
+
+    <form id="f3">
+        <h2>Dein Rezept</h2>
+        <div id="info">
+            ...
+        </div>
+        <div id="anweisung">
+            <br> <br>
+        </div>
+        <button type="button" id="submit">Rezept abschicken
+        </button>
+    </form>
+
+</body>
+
+</html>
