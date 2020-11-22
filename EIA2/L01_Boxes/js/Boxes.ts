@@ -28,7 +28,7 @@ var Boxes;
                 break;
         }
     }
-    function createBox(_color, _x, _y, _size) {
+    function createBox(_color: string, _x: string | number, _y: string | number, _size: string) {
         var div = document.createElement("div");
         document.body.appendChild(div);
         div.classList.add(_size);
